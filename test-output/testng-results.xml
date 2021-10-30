@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-30T10:41:32 ICT" name="Default suite" finished-at="2021-10-30T10:41:37 ICT" duration-ms="4324">
+  <suite started-at="2021-10-30T21:13:02 ICT" name="Default suite" finished-at="2021-10-30T21:13:09 ICT" duration-ms="6757">
     <groups>
     </groups>
-    <test started-at="2021-10-30T10:41:32 ICT" name="Default test" finished-at="2021-10-30T10:41:37 ICT" duration-ms="4324">
-      <class name="firsttestpackage.FirstTestNGFile">
-        <test-method signature="verifyHomepageTitle()[pri:0, instance:firsttestpackage.FirstTestNGFile@793be5ca]" started-at="2021-10-30T10:41:33 ICT" name="verifyHomepageTitle" finished-at="2021-10-30T10:41:37 ICT" duration-ms="4301" status="PASS">
+    <test started-at="2021-10-30T21:13:02 ICT" name="Default test" finished-at="2021-10-30T21:13:09 ICT" duration-ms="6757">
+      <class name="firsttestpackage.thridtestngfile">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:02 ICT" name="launchBrowser" finished-at="2021-10-30T21:13:06 ICT" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:06 ICT" name="verifyHomepageTitle" finished-at="2021-10-30T21:13:06 ICT" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomepageTitle -->
-      </class> <!-- firsttestpackage.FirstTestNGFile -->
+        <test-method signature="register()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:06 ICT" name="register" finished-at="2021-10-30T21:13:07 ICT" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:07 ICT" name="goBackToHomepage" finished-at="2021-10-30T21:13:08 ICT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="verifyHomepageTitle()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:08 ICT" name="verifyHomepageTitle" finished-at="2021-10-30T21:13:08 ICT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method signature="support()[pri:1, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:08 ICT" name="support" finished-at="2021-10-30T21:13:08 ICT" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- support -->
+        <test-method is-config="true" signature="goBackToHomepage()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:08 ICT" name="goBackToHomepage" finished-at="2021-10-30T21:13:09 ICT" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:firsttestpackage.thridtestngfile@1a18644]" started-at="2021-10-30T21:13:09 ICT" name="terminateBrowser" finished-at="2021-10-30T21:13:09 ICT" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- firsttestpackage.thridtestngfile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
